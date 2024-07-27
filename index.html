@@ -1,3 +1,55 @@
-<script async src="https://cse.google.com/cse.js?cx=31ec0ba497d4b4a78">
-</script>
-<div class="gcse-search"></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Custom Search Engine</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            text-align: center;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .search-box {
+            margin-bottom: 20px;
+        }
+        .gcse-searchresults-only {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Custom Search Engine</h1>
+    </header>
+
+    <div class="container">
+        <div class="search-box">
+            <!-- Search box and search button will be rendered here -->
+            <div class="gcse-search"></div>
+        </div>
+        <div class="search-results">
+            <!-- Search results will be rendered here -->
+            <div class="gcse-searchresults-only"></div>
+        </div>
+    </div>
+
+    <!-- Google Custom Search Engine script -->
+    <script async src="https://cse.google.com/cse.js?cx=31ec0ba497d4b4a78"></script>
+</body>
+</html>
